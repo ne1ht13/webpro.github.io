@@ -1,0 +1,113 @@
+<!-- RMIT University Vietnam
+Course: COSC2430 Web Programming
+Semester: 2023A
+Assessment: Assignment 1
+Author: Truong Loc Thien
+ID: s3924695
+Acknowledgement: Acknowledge the resources that you use here. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Home Page</title>
+</head>
+<body>
+    <!-- Header (Logo and Navigation bar) -->
+    <div class="mobile-nav-icon">☰</div>
+    <nav class="navbar">
+        <img class="logo" src="/logo.webp" alt="Logo"> 
+        <ul>
+            <li class="dropdown"><a href="../index.html"></a>
+                <button class="dropbtn">Home Page</button>
+            <li class="dropdown"><a href="#"></a>
+                <button class="dropbtn">Category
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="../Fiction/category1.html">Category 1</a>
+                    <a href="../Non-Fiction/non-fiction.html">Category 2</a>
+            </li>
+            <li class="dropdown"><a href="../Contact-page/contactpage.html"></a>
+                <button class="dropbtn">Contact
+                </button>
+        </ul> 
+    </nav>
+    </nav>
+    <!-- Breadcrumb -->
+    <div class="breadcrumb">
+        <ul class="breadcrumb_list">
+        <li class="li-breadcrumb"><a href='#'>Home</a></li>
+        <li class="li-breadcrumb"><a href='/Non-Fiction/non-fiction.html'>Non-fiction</a></li>
+        <li><a href='/Boook-detail1/bookdetail1.html'>Solito: A Memoir</a></li>
+        </ul>
+    </div>
+    <!-- Image and Add to cart -->
+    <div class="Row">
+        <div class="Column"><img class="book
+            " src="../Books/Social Sciences/Solito A Memoir/Solito A Memoir.webp" alt="Book's Cover">
+        </div>
+        <div class="Column">
+            <div class="mini-image-display">
+                <img class="miniimg" src="../Books/Social Sciences/Solito A Memoir/Solito A Memoir.webp" alt="Book's Cover">
+                <img class="miniimg" src="../Books/Social Sciences/Solito A Memoir/Img-1.webp" alt="Image 1">
+                <img class="miniimg" src="../Books/Social Sciences/Solito A Memoir/img-2.webp" alt="Image 2">
+            </div>
+        </div>
+        <div class="Column">
+            <div class="addtocart-price">
+                <p class="price">$24.99</p>
+                <button class="add-to-cart">Add to cart</button>
+            </div>
+        </div>
+    </div>
+    <br>
+
+    <div class="description">
+        <h2 class="book-name">Solito: A Memoir</h2>
+    </div>
+    <div class="description">
+        <p class="book-description">
+        <b>Publisher:</b>Javier Zamora
+        <br><b>Page:</b>400
+        <br><b>Book description:</b> Javier Zamora lays his soul bare on the pages of this heartrending memoir. 
+        Touching on themes of abandonment, loss, trauma, and forgiveness, Zamora’s lyrical recounting is a story 
+        as timeless as it is topical and as universal as it is uniquely his. Solito will fill your heart with sadness, 
+        anger, love in turn, but most of all with an enduring sense of irrepressible hope.
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div>
+            <nav class="navbarf">
+                <ul>
+                    <li class="dropdown"><a href="../index.html"></a>
+                        <button class="dropbtn">About Us</button>
+                    <li class="dropdown"><a href="#"></a>
+                        <button class="dropbtn">Category
+                            <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="../Fiction/category1.html">Fiction</a>
+                            <a href="../Non-Fiction/non-fiction.html">Non-fiction</a>
+                    </li>
+                    <li class="dropdown"><a href="#"></a>
+                        <button class="dropbtn">Policy
+                        </button>
+                    </li>
+                    <li class="dropdown"><a href="../Contact-page/contactpage.html"></a>
+                        <button class="dropbtn">Contact
+                         </button>
+                    </li>
+                    <li class="dropdown"><a href="#"></a>
+                        <button class="dropbtn">Coppy Right
+                        </button>
+                    </li>
+                </ul> 
+            </nav>
+        </div>
+</footer>
+</body>

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Contact page</title>
+</head>
+<body>
+    <!-- Header (Logo and Navigation bar) -->
+    <nav class="navbar">
+        <img class="logo" src="/logo.webp" alt="Logo"> 
+        <ul>
+            <li class="dropdown"><a href="../index.html"></a>
+                <button class="dropbtn">Home Page</button>
+            <li class="dropdown"><a href="#"></a>
+                <button class="dropbtn">Category
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="../Fiction/category1.html">Category 1</a>
+                    <a href="../Non-Fiction/non-fiction.html">Category 2</a>
+            </li>
+            <li class="dropdown"><a href="../Contact-page/contactpage.html"></a>
+                <button class="dropbtn">Contact
+                </button>
+        </ul> 
+    </nav>
+    <!--Contact page-->
+    <div>
+        <h1 class="header">Contact page</h1>
+    </div>
+    <div class="form">
+        <div class="custom-select">
+        <select>
+                <option value="0">Contact purpose</option>
+                <option value="1">I want to sell books</option>
+                <option value="2">I want to buy books</option>
+        </select>
+        </div>
+            <form>
+                <br>
+                <h4>Name</h4>
+                <input type="text" name="name" id="User's name">
+                <br>
+                <h4>Email</h4>
+                <input type="email" name="email" id="User's email">
+                <br>
+                <h4>Phone number</h4>
+                <input type="phone" name="phone" id="user's phone">
+                <br>
+                <h4>Contact Preference</h4>
+                <input type="checkbox" value="by email" name="by email">
+                <label for="by email">By email</label>
+                <input type="checkbox" value="by phone" name="by phone">
+                <label for="by email">By phone</label>
+                <br>
+                <h4>Recieve weekly newsletter</h4>
+                <label class="radio">
+                    <input type="radio" name="answer" checked>
+                    Yes
+                </label>
+                <label class="radio">
+                    <input type="radio" name="answer">
+                    No
+                </label>
+                </lable>
+                <br>
+                <input type="submit" id="summit" name="summit">
+                <input type="reset" id="reset" name="reset">
+            </form>
+    </div>
+
+
+
+
+    <!-- Footer -->
+    <footer>
+        <div>
+            <nav class="navbarf">
+                <ul>
+                    <li class="dropdown"><a href="../index.html"></a>
+                        <button class="dropbtn">About Us</button>
+                    <li class="dropdown"><a href="#"></a>
+                        <button class="dropbtn">Category
+                            <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="../Fiction/category1.html">Fiction</a>
+                            <a href="../Non-Fiction/non-fiction.html">Non-fiction</a>
+                    </li>
+                    <li class="dropdown"><a href="#"></a>
+                        <button class="dropbtn">Policy
+                        </button>
+                    </li>
+                    <li class="dropdown"><a href="../Contact-page/contactpage.html"></a>
+                        <button class="dropbtn">Contact
+                         </button>
+                    </li>
+                    <li class="dropdown"><a href="#"></a>
+                        <button class="dropbtn">Coppy Right
+                        </button>
+                    </li>
+                </ul> 
+            </nav>
+        </div>
+    </footer>
+</body>
+
+
+</html>
